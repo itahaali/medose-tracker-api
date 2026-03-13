@@ -1,0 +1,1 @@
+export default { patient: "patient", viewer: "viewer" };
