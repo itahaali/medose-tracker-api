@@ -1,5 +1,4 @@
 # MedoseTracker API
-> A RESTful API for managing medicines and tracking daily dose adherence.
 
 ## Overview
 
