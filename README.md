@@ -21,7 +21,7 @@ This project was built as a backend practice project to learn API design, authen
 ## Project Structure
 
 ```
-MedoseTracker-api
+MedoseTracker-API
 │
 ├── config
 │   ├── db.js
