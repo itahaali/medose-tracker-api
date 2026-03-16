@@ -21,22 +21,22 @@ This project was built as a backend practice project to learn API design, authen
 ## Project Structure
 
 ```
-MedoseTracker-API
+medose-tracker-api
 │
-├── config
+├── configs
 │   ├── db.js
 │   └── roles.js
 │
-├── controller
+├── controllers
 │   ├── auth.js
 │   ├── medicine.js
 │   └── dose.js
 │
-├── middleware
+├── middlewares
 │   ├── auth.js
 │   └── ownership.js
 │
-├── model
+├── models
 │   ├── User.js
 │   ├── Medicine.js
 │   └── Dose.js
@@ -131,4 +131,4 @@ This project was built as a learning exercise to practice backend development co
 
 ## License
 
-*This project is licensed under the MIT License.*
+This project is licensed under the MIT License.

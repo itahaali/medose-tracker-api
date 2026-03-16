@@ -1,4 +1,4 @@
-import Medicine from "../model/Medicine.js";
+import Medicine from "../models/Medicine.js";
 
 async function createMedicine(request, response) {
   const { name, dosage, frequency, timesPerDay, startDate, isActive } = request.body;
