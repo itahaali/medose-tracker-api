@@ -1,5 +1,5 @@
-import Dose from "../model/Dose.js";
-import Medicine from "../model/Medicine.js";
+import Dose from "../models/Dose.js";
+import Medicine from "../models/Medicine.js";
 
 async function logDose(request, response) {
   const medicine = request.params.medId;

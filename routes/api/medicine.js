@@ -5,9 +5,9 @@ import {
   getOneMedicine, 
   updateMedicine, 
   deleteMedicine 
-} from "../../controller/medicine.js";
-import verifyRoles from "../../middleware/ownership.js";
-import rolesList from "../../config/roles.js";
+} from "../../controllers/medicine.js";
+import verifyRoles from "../../middlewares/ownership.js";
+import rolesList from "../../configs/roles.js";
 
 const router = express.Router();
 

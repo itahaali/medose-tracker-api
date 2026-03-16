@@ -3,9 +3,9 @@ import {
   logDose,
   getTodayDoses,
   getSummary
-} from "../../controller/dose.js";
-import verifyRoles from "../../middleware/ownership.js";
-import rolesList from "../../config/roles.js";
+} from "../../controllers/dose.js";
+import verifyRoles from "../../middlewares/ownership.js";
+import rolesList from "../../configs/roles.js";
 
 const router = express.Router();
 

@@ -3,9 +3,9 @@ import cors from "cors";
 import express from "express";
 import mongoose from "mongoose";
 
-import connectDB from "./config/db.js";
+import connectDB from "./configs/db.js";
 import authRouter from "./routes/auth.js"; 
-import verifyToken from "./middleware/auth.js";
+import verifyToken from "./middlewares/auth.js";
 
 import medRouter from "./routes/api/medicine.js";
 import doseRouter from "./routes/api/dose.js";
